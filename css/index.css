@@ -1,0 +1,397 @@
+#pl-1{   
+    position: relative;
+    height: 100vh;
+    background: rgb(245,245,245);
+    background: linear-gradient(180deg, rgba(230,230,230,1) 20%, rgba(63,193,197,1) 80%);
+    overflow: hidden;
+}
+#pl-1 #view-img{
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/img1.svg');
+    position: absolute;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+#pl-1 .panel-a{
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+}
+#pl-1 .panel-a h1{
+    z-index: 99;
+    color: rgb(56,166,173);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+#pl-1 .panel-a h1 span{
+    color: var(--color_primary);
+    font-size: 30px;
+}
+#pl-1 .panel-a p{
+    z-index: 99;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    width: 430px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+#pl-1 .panel-a a{
+    z-index: 99;
+    margin-top: 10px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 18px;
+    color: var(--color_primary);
+    box-shadow: 0px 0px 10px var(--color_primary);
+}
+#pl-1 .panel-a a:hover{
+    background-color: rgb(201, 201, 201);
+    color: var(--color_primary);
+    box-shadow: 0px 0px 10px var(--color_primary);
+
+}
+.img-animation-1{
+    animation-name: animation1;
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation1 {
+    0%{
+        margin-top: -50px;
+    }
+    50%  {
+        margin-top: -30px;
+    }
+    100% {
+        margin-top: -50px;
+    }
+}
+#pl-1 .panel-b{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+#pl-2{   
+    height: 450px;
+}
+#pl-2 .container{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pl-2 .panel-a{
+    width: 50%;
+    height: 100%;
+}
+#pl-2 .panel-b{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#pl-2 .panel-b .baged{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    margin-top: 110px;
+}
+#pl-2 .panel-b .baged h1{
+    font-size: 50px;
+    color: var(--color_primary);
+    letter-spacing: 1px;
+}
+#pl-2 .panel-b .baged .bar{
+    width: 200px;
+    height: 5px;
+    background: rgb(4,240,234);
+    background: linear-gradient(80deg, rgba(4,240,234,0) 20%, rgba(25,231,201,1) 100%);
+    border-radius: 10px;
+}
+.img-animation-2{
+    animation-name: animation1;
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+}
+#pl-2 .panel-b p{
+    text-align: right;
+    margin-top: 20px;
+    width: 500px;
+}
+#pl-2 .panel-b .social-network{
+    margin-top: 50px;
+    position: relative;
+    width: 60%;
+    bottom: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+#pl-2 .panel-b .social-network a{
+    position: relative;
+    padding-top: 15px;
+    text-align: center;
+    width: 90px;
+}
+#pl-2 .panel-b .social-network a i{
+    font-size: 30px;
+    transition: all .3s ease-in-out;
+    color: rgba(32, 32, 32, 0.329);
+    text-shadow: 2px 2px 1px rgb(0,0,0,0.2);
+}
+#pl-2 .panel-b .social-network a:hover i{
+    font-size: 27px;
+    color: var(--color_primary);
+    text-shadow: 0px 0px 3px var(--color_primary);
+}
+#pl-2 .panel-b .social-network .bar{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 2px;
+    height: 80%;
+    background: rgba(237,237,237);
+    box-shadow: 2px 2px 1px rgb(0,0,0,0.1);
+}
+
+
+
+
+#pl-3{   
+    background: rgb(245,245,245);
+    background: linear-gradient(180deg, rgb(234, 240, 245) 20%, rgba(63,193,197,1) 80%);
+    margin-top: 60px;
+    position: relative;
+    height: 100vh;
+    background-color: rgb(197, 197, 197);
+}
+#pl-3 .view-img{
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/img3.svg');
+    position: absolute;
+    background-size: cover;
+    background-position: 100% 100%;
+    transform: rotate(180deg);
+}
+#pl-3 .view-img2{
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/img3.svg');
+    position: absolute;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+#pl-3 .form-back{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    left: calc(100% / 2 - 390px);
+    top: calc(100% / 2 - 250px);
+    background-image: url('../img/img2.svg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 1px rgb(0,0,0,0.1);
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+#pl-3 .form-back .panel-a{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+#pl-3 .form-back .panel-a img{
+    position: absolute;
+    top: 50px;
+    opacity: 0.5;
+    left: calc(100% / 2 - 80px);
+}
+#pl-3 .form-back .panel-a h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 270px;
+    font-size: 33px;
+    letter-spacing: 1.5px;
+    color: rgba(32, 32, 32, 0.589);
+    text-shadow: 3px 3px 2px rgb(0,0,0,0.2);
+}
+#pl-3 .form-back .panel-a .social-network{
+    position: absolute;
+    bottom: 50px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pl-3 .form-back .panel-a .social-network a{
+    position: relative;
+    padding-top: 15px;
+    text-align: center;
+    width: 90px;
+
+}
+#pl-3 .form-back .panel-a .social-network a .bar{
+    left: 0 !important;
+
+}
+#pl-3 .form-back .panel-a .social-network a i{
+    font-size: 24px;
+    transition: all .3s ease-in-out;
+    color: rgba(32, 32, 32, 0.329);
+    text-shadow: 2px 2px 1px rgb(0,0,0,0.2);
+}
+#pl-3 .form-back .panel-a .social-network a:hover i{
+    font-size: 27px;
+    color: var(--color_primary);
+    text-shadow: 0px 0px 3px var(--color_primary);
+}
+#pl-3 .form-back .panel-a .bar{
+    position: absolute;
+    width: 1.5px;
+    height: 80%;
+    top: 10%;
+    right: 0;
+    background: rgba(237,237,237);
+    box-shadow: 2px 2px 1px rgb(0,0,0,0.1);
+}
+
+
+
+
+#pl-3 .form-back .panel-b{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+#pl-3 .form-back .panel-b h1{
+    position: absolute;
+    color: var(--color_primary);
+    left: 30px;
+    top: 60px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+#pl-3 .form-back .panel-b .input-text-box{
+    position: absolute;
+    top: 130px;
+    left: 5%;
+    width: 90%;
+    height: 45px;
+    background-color: rgba(240, 240, 240, 0.692);
+    border-radius: 5px;
+    overflow: hidden;
+}
+#pl-3 .form-back .panel-b .input-text-box i{
+    position: absolute;
+    background-color: var(--color_primary_middle);
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 12px;
+    color: rgba(32, 32, 32, 0.589);
+    text-shadow: 3px 3px 2px rgb(0,0,0,0.2);
+    width: 40px;
+    height: 100%;
+}
+#pl-3 .form-back .panel-b .input-text-box input{
+    position: absolute;
+    left: 50px;
+    top: 0;
+    width: calc(100% - 60px);
+    height: 100%;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+    color: rgba(32, 32, 32, 0.589);
+    text-shadow: 3px 3px 2px rgb(0,0,0,0.2);
+}
+#pl-3 .form-back .panel-b .input-text-area{
+    position: absolute;
+    top: 160px;
+    left: 5%;
+    width: 90%;
+    height: 130px;
+    background-color: rgba(240, 240, 240, 0.692);
+    border-radius: 5px;
+    overflow: hidden;
+}
+#pl-3 .form-back .panel-b .input-text-area .bar{
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1px;
+    background-color: var(--color_primary);
+}
+#pl-3 .form-back .panel-b .input-text-area textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    outline: none;
+    z-index: 999;
+    background-color: transparent;
+}
+
+
+
+
+#pl-3 .form-back .panel-b button{
+width: 200px;
+height: 40px;
+position: absolute;
+top: 380px;
+right: 20px;
+border-radius: 6px;
+background-color: var(--color_primary_middle);
+border-style: none;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 1px;
+cursor: pointer;
+color: rgba(32, 32, 32, 0.589);
+text-shadow: 3px 3px 2px rgb(0,0,0,0.2);
+transition: all .2s ease-in-out;
+
+}
+
+#pl-3 .form-back .panel-b button:hover{
+    background-color: var(--color_primary);
+}

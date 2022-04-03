@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    font-family: "Poppins" , sans-serif;
+    color: rgb(33, 33, 33);
+}
+:root{
+    --color_primary:rgb(56,166,173);
+    --color_primary_middle: #8ccbcc;
+    --backgroud_Color:rgb(245,245,245);
+    --NavBar_Color: rgb(255,255,255);
+}
+body{
+    outline: none;
+    background-color: var(--backgroud_Color);
+}
+::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 50%;
+}
+::-webkit-scrollbar-thumb{
+    background:  var(--color_primary);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:  var(--color_primary);
+}
+::-webkit-scrollbar-track{
+    background:  rgb(204, 204, 204);
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px var(--backgroud_Color);
+}
+
+
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.text-color{
+    color: var(--color_primary) !important;
+}
+.text-shadow{
+    letter-spacing: 0.4px;
+    text-shadow: 0px 0px 8px var(--color_primary) !important;
+}
+
+
+
+#alert{
+    pointer-events: none;
+    transition: all .4s ease-in-out;
+    position: fixed;
+    right: 7px;
+    bottom: 10px;
+    width: 340px;
+    height: 40px;
+    border-radius: 6px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: 99999999;
+    border-width: 1.5px;
+}
+.alert-show{
+    opacity: 1 !important;
+    height: 40px;
+}
+#alert i{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    color: rgba(255, 255, 255) !important;
+}
+#alert h1{
+    position: absolute;
+    left: 60px;
+    top: calc(100% / 2 - 9px);
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgba(255, 255, 255) !important;
+}
+
+
+
+
+
+
+#navbar-back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: rgb(245,245,245);
+    z-index: 9999999999999;
+}
+
+
+
